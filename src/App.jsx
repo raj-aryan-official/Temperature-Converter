@@ -74,8 +74,6 @@ const App = () => {
       convertedTemp = (parseFloat(input) - 491.67) * 5/9 + 273.15;
       setTemp(convertedTemp.toFixed(2) + "K");
     }
-
-    setInput("");
   }
 
   return (
